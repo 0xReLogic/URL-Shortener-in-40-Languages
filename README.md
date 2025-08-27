@@ -19,6 +19,31 @@ Experiment implementing a simple URL shortener in 8 different programming langua
 - Store mappings in memory (dict/map)
 - Retrieve original URL from short code
 
+## Detailed Description
+
+This project demonstrates a basic URL shortener service implemented in 8 different programming languages:
+- Python
+- Rust
+- Go
+- Kotlin
+- Ruby
+- TypeScript
+- C++
+- C#
+
+## Features
+
+- Random 6-character short code generation
+- In-memory URL storage
+- CLI interface for each language
+
+## Example Output
+
+```
+Short URL: 5zezLq
+Original URL: https://www.example.com
+```
+
 ## How to Run
 
 ### Python
@@ -44,7 +69,6 @@ go run main.go
 cd Kotlin
 kotlin Main.kt
 ```
-(or compile with kotlinc and run JAR)
 
 ### Ruby
 ```bash
@@ -52,7 +76,7 @@ cd Ruby
 ruby url_shortener.rb
 ```
 
-### TypeScript/JavaScript
+### TypeScript
 ```bash
 cd TypeScript
 node url_shortener.js
@@ -72,15 +96,8 @@ csc Program.cs
 Program.exe
 ```
 
-## Example Output
-
-```
-Short URL: 5zezLq
-Original URL: https://www.example.com
-```
-
 ## Notes
 
-- This is a basic implementation for educational purposes.
-- No persistence; URLs are stored in memory only.
-- Can be extended with databases, web APIs, etc.
+- Basic implementation for learning purposes
+- No persistence (in-memory only)
+- Extendable to databases/web APIs
