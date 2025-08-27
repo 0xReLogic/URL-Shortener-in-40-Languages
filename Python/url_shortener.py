@@ -10,7 +10,7 @@ class URLShortener:
         self.code_length = code_length
         self.url_map: Dict[str, str] = {}
         self.reverse_map: Dict[str, str] = {}
-        self.stats: Dict[str, Dict] = {}
+        self.stats: Dict[str, 'ShortLinkStats'] = {}
 
     def _generate_code(self, max_retries: int = 100) -> str:
         for _ in range(max_retries):
