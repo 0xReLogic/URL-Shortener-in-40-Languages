@@ -12,11 +12,12 @@ class URLShortener:
         self.reverse_map: Dict[str, str] = {}
         self.stats: Dict[str, Dict] = {}
 
-    def _generate_code(self) -> str:
-        while True:
+    def _generate_code(self, max_retries: int = 100) -> str:
+        for _ in range(max_retries):
             code = ''.join(random.choices(string.ascii_letters + string.digits, k=self.code_length))
             if code not in self.url_map:
                 return code
+        raise RuntimeError("Could not generate a unique short code. The namespace may be exhausted.")
 
     def shorten(self, url: str, custom_code: Optional[str] = None, deterministic: bool = False) -> str:
         if url in self.reverse_map:
