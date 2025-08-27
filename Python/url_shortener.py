@@ -42,7 +42,8 @@ class URLShortener:
     def get_url(self, code: str) -> Optional[str]:
         url = self.url_map.get(code)
         if url:
-            self.stats[code]["hits"] += 1
+            with self._lock:
+                self.stats[code]["hits"] += 1
         return url
 
     def get_code(self, url: str) -> Optional[str]:
