@@ -1,6 +1,6 @@
-# URL Shortener in 8 Languages
+# URL Shortener in 20 Languages
 
-A URL shortener implementation across 8 different programming languages, available in two versions:
+A URL shortener implementation across 20 different programming languages, available in two versions:
 
 ## Project Structure
 
@@ -12,7 +12,7 @@ Enhanced versions with additional features for experimentation and advanced use 
 
 ## Languages Implemented
 
-Both Minimal and Extended versions include:
+Both Minimal and Extended versions include all 20 languages:
 - **Python** 
 - **Rust**
 - **Go**
@@ -21,6 +21,18 @@ Both Minimal and Extended versions include:
 - **TypeScript**
 - **C++**
 - **C#**
+- **PHP**
+- **Swift**
+- **Haskell**
+- **Zig**
+- **Dart**
+- **Scala**
+- **Elixir**
+- **Lua**
+- **Perl**
+- **F#**
+- **Julia**
+- **Clojure**
 
 ## Core Features
 
@@ -94,6 +106,66 @@ g++ url_shortener.cpp -o url_shortener
 ```bash
 csc Program.cs
 Program.exe
+```
+
+**PHP**
+```bash
+php url_shortener.php
+```
+
+**Swift**
+```bash
+swift url_shortener.swift
+```
+
+**Haskell**
+```bash
+ghc url_shortener.hs && ./url_shortener
+```
+
+**Zig**
+```bash
+zig run url_shortener.zig
+```
+
+**Dart**
+```bash
+dart url_shortener.dart
+```
+
+**Scala**
+```bash
+scala url_shortener.scala
+```
+
+**Elixir**
+```bash
+elixir url_shortener.ex
+```
+
+**Lua**
+```bash
+lua url_shortener.lua
+```
+
+**Perl**
+```bash
+perl url_shortener.pl
+```
+
+**F#**
+```bash
+fsharpc url_shortener.fs && mono url_shortener.exe
+```
+
+**Julia**
+```bash
+julia url_shortener.jl
+```
+
+**Clojure**
+```bash
+clojure -M url_shortener.clj
 ```
 
 ## Contributing & Experimentation
