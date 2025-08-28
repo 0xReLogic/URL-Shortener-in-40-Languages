@@ -1,5 +1,10 @@
 # URL Shortener in 40 Languages
 
+![Languages](https://img.shields.io/badge/languages-40-brightgreen)
+![License](https://img.shields.io/badge/license-MIT-blue)
+![Status](https://img.shields.io/badge/status-complete-success)
+
+
 A URL shortener implementation across 40 different programming languages, available in two versions:
 
 ## Project Structure
@@ -8,7 +13,7 @@ A URL shortener implementation across 40 different programming languages, availa
 Simple, pure implementations focusing on core functionality only. Perfect for learning the basic concepts.
 
 ### Extended Version  
-Enhanced versions with additional features for experimentation and advanced use cases.
+Currently mirrors Minimal but intended for advanced Pull Requests only. This is where contributors can add web APIs, databases, frameworks, etc.
 
 ## Languages Implemented
 
@@ -264,16 +269,28 @@ matlab -batch "url_shortener_demo"
 mysql < url_shortener.sql
 ```
 
-## Contributing & Experimentation
+## The Story Behind This Madness
 
-For those who want to contribute or experiment with advanced features, use the **Extended** folder:
+What started as a simple "let me try this in a few languages" turned into a 40-language coding marathon. 
 
-- Add new features like web APIs, database persistence, custom short codes, etc.
-- Experiment with different algorithms or data structures
-- Add unit tests and error handling
-- Implement additional functionality while keeping the core concept intact
+From Python (civilized) to Assembly (masochistic) to Brainfuck (don't ask, just don't laugh), this project covers the entire spectrum of programming languages. Some say I went too far. I say I didn't go far enough.
 
-The Extended versions are perfect for trying out new ideas and improvements.
+The Brainfuck implementation is... well, it exists. That's about all we can say about it without violating several international treaties.
+
+## Contributing & Pull Requests
+
+**IMPORTANT**: All Pull Requests must go to the **Extended** folder only. 
+
+The **Minimal** folder is feature-complete and locked for PRs. Use **Extended** for:
+- Web APIs and REST endpoints
+- Database persistence (PostgreSQL, Redis, etc.)
+- Advanced algorithms and optimizations  
+- Unit tests and comprehensive error handling
+- Framework integrations (Express.js, Django, Spring Boot, etc.)
+- Authentication and rate limiting
+- Custom short code patterns
+
+Extended is your playground for making this project production-ready.
 
 ## Notes
 
