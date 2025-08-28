@@ -1,41 +1,33 @@
-# URL Shortener Experiment
+# URL Shortener in 8 Languages
 
-Experiment implementing a simple URL shortener in 8 different programming languages.
+A URL shortener implementation across 8 different programming languages, available in two versions:
+
+## Project Structure
+
+### Minimal Version
+Simple, pure implementations focusing on core functionality only. Perfect for learning the basic concepts.
+
+### Extended Version  
+Enhanced versions with additional features for experimentation and advanced use cases.
 
 ## Languages Implemented
 
-- **Python** (`Python/url_shortener.py`)
-- **Rust** (`Rust/`)
-- **Go** (`Go/main.go`)
-- **Kotlin** (`Kotlin/Main.kt`)
-- **Ruby** (`Ruby/url_shortener.rb`)
-- **TypeScript** (`TypeScript/url_shortener.js`)
-- **C++** (`C++/url_shortener.cpp`)
-- **C#** (`C#/Program.cs`)
+Both Minimal and Extended versions include:
+- **Python** 
+- **Rust**
+- **Go**
+- **Kotlin** 
+- **Ruby** 
+- **TypeScript**
+- **C++**
+- **C#**
 
-## Features
+## Core Features
 
 - Generate random 6-character short code for URLs
-- Store mappings in memory (dict/map)
+- Store URL mappings in memory
 - Retrieve original URL from short code
-
-## Detailed Description
-
-This project demonstrates a basic URL shortener service implemented in 8 different programming languages:
-- Python
-- Rust
-- Go
-- Kotlin
-- Ruby
-- TypeScript
-- C++
-- C#
-
-## Features
-
-- Random 6-character short code generation
-- In-memory URL storage
-- CLI interface for each language
+- Simple CLI interface
 
 ## Example Output
 
@@ -46,55 +38,74 @@ Original URL: https://www.example.com
 
 ## How to Run
 
-### Python
+Choose either Minimal or Extended version, then navigate to the language folder:
+
+### Minimal Version (Simple Implementation)
 ```bash
-cd Python
+cd Minimal/[Language]
+# Then run the appropriate command below
+```
+
+### Extended Version (Advanced Features)
+```bash
+cd Extended/[Language]
+# Then run the appropriate command below
+```
+
+### Language-Specific Commands
+
+**Python**
+```bash
 python url_shortener.py
 ```
 
-### Rust
+**Rust**
 ```bash
-cd Rust
 cargo run
 ```
 
-### Go
+**Go**
 ```bash
-cd Go
 go run main.go
 ```
 
-### Kotlin
+**Kotlin**
 ```bash
-cd Kotlin
 kotlin Main.kt
 ```
 
-### Ruby
+**Ruby**
 ```bash
-cd Ruby
 ruby url_shortener.rb
 ```
 
-### TypeScript
+**TypeScript**
 ```bash
-cd TypeScript
 node url_shortener.js
 ```
 
-### C++
+**C++**
 ```bash
-cd C++
 g++ url_shortener.cpp -o url_shortener
 ./url_shortener
 ```
 
-### C#
+**C#**
 ```bash
-cd C#
 csc Program.cs
 Program.exe
 ```
+
+## Contributing & Experimentation
+
+For those who want to contribute or experiment with advanced features, use the **Extended** folder:
+
+- Add new features like web APIs, database persistence, custom short codes, etc.
+- Experiment with different algorithms or data structures
+- Add unit tests and error handling
+- Implement additional functionality while keeping the core concept intact
+
+The Extended versions are perfect for trying out new ideas and improvements.
 
 ## Notes
 
