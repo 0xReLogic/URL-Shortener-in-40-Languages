@@ -1,6 +1,6 @@
-# URL Shortener in 20 Languages
+# URL Shortener in 40 Languages
 
-A URL shortener implementation across 20 different programming languages, available in two versions:
+A URL shortener implementation across 40 different programming languages, available in two versions:
 
 ## Project Structure
 
@@ -12,27 +12,18 @@ Enhanced versions with additional features for experimentation and advanced use 
 
 ## Languages Implemented
 
-Both Minimal and Extended versions include all 20 languages:
-- **Python** 
-- **Rust**
-- **Go**
-- **Kotlin** 
-- **Ruby** 
-- **TypeScript**
-- **C++**
-- **C#**
-- **PHP**
-- **Swift**
-- **Haskell**
-- **Zig**
-- **Dart**
-- **Scala**
-- **Elixir**
-- **Lua**
-- **Perl**
-- **F#**
-- **Julia**
-- **Clojure**
+Both Minimal and Extended versions include all 40 languages:
+
+**Modern Languages:**
+- **Python**, **Rust**, **Go**, **Kotlin**, **Ruby**, **TypeScript**, **C++**, **C#**
+- **PHP**, **Swift**, **Haskell**, **Zig**, **Dart**, **Scala**, **Elixir**
+- **Lua**, **Perl**, **F#**, **Julia**, **Clojure**, **OCaml**, **Crystal**
+- **Nim**, **V**, **Erlang**
+
+**Classic & Specialty Languages:**
+- **Assembly**, **COBOL**, **Fortran**, **Prolog**, **R**
+- **Bash**, **PowerShell**, **AWK**, **Pascal**, **D**
+- **Scheme**, **Racket**, **Smalltalk**, **Brainfuck**, **MATLAB**, **SQL**
 
 ## Core Features
 
@@ -166,6 +157,111 @@ julia url_shortener.jl
 **Clojure**
 ```bash
 clojure -M url_shortener.clj
+```
+
+**OCaml**
+```bash
+ocamlc -o url_shortener url_shortener.ml && ./url_shortener
+```
+
+**Crystal**
+```bash
+crystal run url_shortener.cr
+```
+
+**Nim**
+```bash
+nim c -r url_shortener.nim
+```
+
+**V**
+```bash
+v run url_shortener.v
+```
+
+**Erlang**
+```bash
+erl -compile url_shortener && erl -noshell -s url_shortener example -s init stop
+```
+
+**Assembly**
+```bash
+nasm -f elf64 url_shortener.asm && ld url_shortener.o && ./a.out
+```
+
+**COBOL**
+```bash
+cobc -x url_shortener.cob && ./url_shortener
+```
+
+**Fortran**
+```bash
+gfortran url_shortener.f90 -o url_shortener && ./url_shortener
+```
+
+**Prolog**
+```bash
+swipl -s url_shortener.pl
+```
+
+**R**
+```bash
+Rscript url_shortener.R
+```
+
+**Bash**
+```bash
+chmod +x url_shortener.sh && ./url_shortener.sh
+```
+
+**PowerShell**
+```bash
+pwsh url_shortener.ps1
+```
+
+**AWK**
+```bash
+awk -f url_shortener.awk
+```
+
+**Pascal**
+```bash
+fpc url_shortener.pas && ./url_shortener
+```
+
+**D**
+```bash
+dmd url_shortener.d && ./url_shortener
+```
+
+**Scheme**
+```bash
+scheme --load url_shortener.scm
+```
+
+**Racket**
+```bash
+racket url_shortener.rkt
+```
+
+**Smalltalk**
+```bash
+gst url_shortener.st
+```
+
+**Brainfuck**
+```bash
+bf url_shortener.bf
+```
+
+**MATLAB**
+```bash
+matlab -batch "url_shortener_demo"
+```
+
+**SQL**
+```bash
+mysql < url_shortener.sql
 ```
 
 ## Contributing & Experimentation
